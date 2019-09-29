@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VtigerTeportTest" thread-count="2">
+
+<Listeners>
+<Listener class-name="ExtentReportListenerTest.ExtentReportListener"/>
+</Listeners>
+<test name="ChromeTest">
+<parameter name="browser" value="Chrome"/>
+<classes>
+<class name="VtigerOrganizationRecord.OrganizationRecord"/>
+<class name="VtigerProject.CreateLeadRecord"/>
+</classes>
+</test>
+</suite> 

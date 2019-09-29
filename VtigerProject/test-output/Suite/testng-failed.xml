@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="VtigerProject.CreateLeadRecord">
+        <methods>
+          <include name="logout"/>
+          <include name="createLead"/>
+          <include name="closeBrowswer"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- VtigerProject.CreateLeadRecord -->
+      <class name="VtigerOrganizationRecord.OrganizationRecord">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowswer"/>
+          <include name="openBrowser"/>
+          <include name="createRecord"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- VtigerOrganizationRecord.OrganizationRecord -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

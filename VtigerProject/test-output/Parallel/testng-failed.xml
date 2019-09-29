@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel]">
+  <test name="ChromeTest(failed)">
+    <classes>
+      <class name="VtigerOrganizationRecord.OrganizationRecord">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="createRecord"/>
+        </methods>
+      </class> <!-- VtigerOrganizationRecord.OrganizationRecord -->
+      <class name="VtigerProject.CreateLeadRecord">
+        <methods>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- VtigerProject.CreateLeadRecord -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FireFoxTest(failed)">
+    <classes>
+      <class name="VtigerOrganizationRecord.OrganizationRecord">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="createRecord"/>
+        </methods>
+      </class> <!-- VtigerOrganizationRecord.OrganizationRecord -->
+      <class name="VtigerProject.CreateLeadRecord">
+        <methods>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- VtigerProject.CreateLeadRecord -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [Parallel] -->
